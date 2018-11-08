@@ -1,0 +1,19 @@
+{
+  "name": "microbundle-typescript-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "source": "src/index.ts",
+  "scripts": {
+    "watch": "microbundle watch --format cjs --jsx react",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "microbundle": "^0.7.0"
+  },
+  "dependencies": {
+    "react": "^16.6.1"
+  }
+}
